@@ -2,5 +2,5 @@
     "runtime": {
         "majorVersion": "0.12"
     },
-    "command": "node server.js verbose=true"
+    "command": "ext/apm_node_wrapper.sh server.js verbose=true"
 }
