@@ -4,7 +4,7 @@
     "description": "JET Microservices Hackathon Frontend",
     "author": "ed.shnekendorf@oracle.com",
     "scripts": {
-        "prepublish": "zip -r target/jet-quickstart-client-dist.zip node_modules doc_root manifest.json *.js"
+        "prepublish": "zip -r target/jet-quickstart-client-dist.zip node_modules doc_root ext manifest.json *.js"
     },
     "dependencies": {
         "body-parser": "^1.15.1",
