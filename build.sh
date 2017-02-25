@@ -8,6 +8,9 @@
 # It's recommended that you put the AgentInstall.zip you get from the
 # OMC tenant into the Maven tenant and use the URL to the artifact.
 
+export APP_HOME=`pwd`
+export HOME="${APP_HOME}"
+
 # Setup proxy
 if [ -n "$HTTP_PROXY" ]; then
   echo "HTTP Proxy is set to ${HTTP_PROXY}"
